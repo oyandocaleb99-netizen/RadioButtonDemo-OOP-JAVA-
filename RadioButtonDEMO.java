@@ -43,14 +43,14 @@ public class RadioButtonDEMO extends JFrame {
         add(leftPanel, BorderLayout.WEST);
         add(imageLabel, BorderLayout.CENTER);
 
-        bird.addActionListener(e -> showPet("Bird","src/images/bird.jfif"));
-        cat.addActionListener(e -> showPet("Cat","src/images/cat.jfif"));
-        dog.addActionListener(e -> showPet("Dog","src/images/dog.jfif"));
-        rabbit.addActionListener(e -> showPet("Rabbit","src/images/rabbit.jfif"));
-        pig.addActionListener(e -> showPet("Pig","src/images/pig.jfif"));
+        bird.addActionListener(e -> showPet("Bird","bird.jfif"));
+        cat.addActionListener(e -> showPet("Cat","cat.jfif"));
+        dog.addActionListener(e -> showPet("Dog","dog.jfif"));
+        rabbit.addActionListener(e -> showPet("Rabbit","rabbit.jfif"));
+        pig.addActionListener(e -> showPet("Pig","pig.jfif"));
 
         pig.setSelected(true);
-        showPet("Pig","src/images/pig.jfif");
+        showPet("Pig","pig.jfif");
 
         setVisible(true);
     }
