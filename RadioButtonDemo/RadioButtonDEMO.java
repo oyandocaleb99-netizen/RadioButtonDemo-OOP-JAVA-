@@ -1,4 +1,4 @@
-import java.awt.*;
+ import java.awt.*;
 import javax.swing.*;
 
 public class RadioButtonDEMO extends JFrame {
@@ -50,7 +50,7 @@ public class RadioButtonDEMO extends JFrame {
         pig.addActionListener(e -> showPet("Pig","pig.jfif"));
 
         pig.setSelected(true);
-        showPet("Pig","src/images/pig.jfif");
+        showPet("Pig","pig.jfif");
 
         setVisible(true);
     }
@@ -80,4 +80,3 @@ public class RadioButtonDEMO extends JFrame {
 
     }
 }
-
